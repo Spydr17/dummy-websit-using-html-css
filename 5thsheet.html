@@ -1,0 +1,93 @@
+<html>
+<head>
+	<title>www.website.com</title>
+<style>
+	.navbar{
+	overflow: hidden;
+	background-color:rgba(58, 61, 60, 0.3);
+	font-weight: bold;
+}
+
+.navbar a {
+	color:white;
+	text-align: center;
+	padding: 16px 18px;
+	float: left;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.navbar a.active{
+	background-color: yellowgreen;
+	color: white;
+}
+.navbar a:hover{
+	background-color: yellowgreen;
+	color: white;
+}
+.form{
+	line-height:1em;
+	position: fixed;
+	right:200px;
+	bottom: 50px;
+}
+body{
+	background-image: url("campus8.2.jpg");
+	background-size: 100%;
+}
+.name{ 
+	padding: 40px;
+	background-color: yellow;
+	opacity: 0.5;
+	position: fixed;
+	left: 0px;
+	bottom: 350px;
+	border-radius: 0px 30px 0px 30px;
+}
+div.whole{
+	border-radius:40px 40px 0px 0px;
+	background-color:rgba(246, 153, 32, 0.692); ;
+	width: 1350px; height: 700px;
+	position: fixed;
+}
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid;
+  border-radius: 4px;
+}
+a {
+    text-decoration: none;
+}
+
+</style>
+</head>
+<body>
+	<div class = navbar> 
+		<a  href="1stsheet.html">Home</a>
+		<a href="2ndsheet.html">Gallary</a>
+		<a href="4thsheet.html">Courses</a>
+		<a href="3rdsheet.html">Contact</a>
+		<a class ="active"href="5thsheet.html">Feedback</a>
+	</div>
+	<div class="whole">
+
+	<div class="name">
+			<h1 style="font-size:35px">PONDICHERRY UNIVERSITY</h1>
+	</div>
+	<form class="form"><fieldset style="border-radius:5px; border:solid yellow;">
+	
+	<legend style="font-size:20px;"><b>Feedback</b></legend>
+	<label><b>Name</b></label><br>
+	<input type="text" value="Enter your name"><br>
+	<label for="email"><b>Email</b></label></br>
+	<input type="text" value="Enter your Email" ><br>
+	<label for="complains"><b>Feedback</b></label><br>
+	<input type="text" size="50" value="write your Feedback"style="width:400px; height:200px;"><br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button>submit</button>
+</fieldset></form>
+
+	</div>
+</body>
+</html>

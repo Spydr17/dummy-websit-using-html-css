@@ -1,0 +1,79 @@
+<!doctype html>
+<head>
+<title>www.pondykaraikal.com</title>
+<link rel="stylesheet" href="style.css"> 
+</head>
+<script>
+	var myIndex = 0;
+	carousel();
+	
+	function carousel() {
+	  var i;
+	  var x = document.getElementsByClassName("mySlides");
+	  for (i = 0; i < x.length; i++) {
+		x[i].style.display = "none";  
+	  }
+	  myIndex++;
+	  if (myIndex > x.length) {myIndex = 1}    
+	  x[myIndex-1].style.display = "block";  
+	  setTimeout(carousel, 1000); // Change image every 2 seconds
+	}
+	</script>
+<body>
+	<div class="upnav">
+		<a href="#">Mail</a>
+		<a href="#">Library</a>
+		<a href="#">Alumani</a>
+	</div>
+<center><div class="navbar">
+	<img src="image.png" height="55px" width="300px">
+	<a href="1stsheet.html">About</a>
+	<a href="1stsheet.html">Administration</a>
+	<a href="1stsheet.html">Academics</a>
+	<a href="1stsheet.html">Admission</a>
+	<a href="1stsheet.html">Research</a>
+	<a href="2ndsheet.html">Campus Life</a>
+	<a href="4thsheet.html">Courses</a>
+	<a href="3rdsheet.html">Contact</a>
+	<a href="5thsheet.html">Discover PU</a>
+</div></center>
+<div id="mySidenav" class="sidenav">
+	<a href="1stsheet.html" id="about">Home</a>
+	<a href="https://www.instagram.com/pu_pondicherry_university/" id="instagram">instagram</a>
+	<a href="https://www.pondiuni.edu.in/home/" id="youtube">youtube</a>
+	<a href="#" id="whatsapp"><img src="D:\MCA notes\sem3\web practice\logo\whatsapp.png" width="50%" height="50%"></a>
+	<a href="https://www.facebook.com/PondicherryUniversityCentralUniversity" id="facebook"><img src="D:\MCA notes\sem3\web practice\logo\fb.png"width="50%" height="50%"></a>
+  </div>
+  
+<div class="w3-content w3-section" style="max-width:500px">
+	<img src="web5.JPG" width="50%" height="50%">
+	<img src="D:\MCA notes\sem3\web practice\image\web6.jpg" width="50%" height="50%">
+	<img src="D:\MCA notes\sem3\web practice\image\web4.jpg" width="50%" height="50%">
+</div>
+<!--<div class="logopng"><center><header><img src="logop.png" height="150px" width="150px" "></header></center></div>-->
+<center><h1 style="font-size:50px;position:fixed;bottom: 485px;right: 350px;">PONDICHERRY UNIVERSITY</h1>
+	<p style="font-size:30px;position:fixed;bottom: 460px;right:570px;"><b>Karaikal Campus</b></p>
+	<p style="position:fixed;bottom:440px;right:610px;font-size:20px;">(a central university)</p>
+</center>
+<!--<div class="adjust"><p style="font-size:20px;">
+	This is <b>PONDICHERRY UNIVERSITY KARAIKAL CAMPUS</b><br>
+	The Campus was established in the year 2007 in Karaikal<br>
+	to cater to the local demands of the Karaikal region, as<br>
+	Karaikal is poised to become a trade centre with major <br>
+	port. It is presently located in the campus of the <br>
+	Preunthalaivar Kamarajar College of Education, Karaikal.</p></div>-->
+	<div class="notice">
+			<div id="circular">Cicular notice</div>
+			<div id="event">Events</div>
+			<div id="phd">Phd. Notifications</div>
+		</div>	
+<div class="acadcalen">
+		<div>
+			<div>
+				Academic calender
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>

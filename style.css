@@ -1,0 +1,144 @@
+.upnav{
+    background:white ;
+    padding: 8px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.upnav a{
+    text-align: center;
+    color:wheat;
+    padding: 5px 15px;
+    color: black;
+}
+.upnav a:hover{
+    color:goldenrod;
+}
+.navbar{
+	overflow: hidden;
+	background-color:rgb(87, 83, 151);
+	font-weight: bold;
+}
+.navbar a {
+    float:none;
+	color:white;
+	text-align: center;
+	padding: 16px ;
+	font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar a:hover {
+    color:rgb(250, 156, 15);
+}
+.mySlides {display:none;}
+body{
+    background:linear-gradient(rgb(0,0,0,0.37),rgba(0, 0, 0, 0.37));
+}
+.footer{
+    background-color: darkslategray;
+    opacity: 0.5;
+    padding:20px;
+}
+div.dis{
+    color:white;
+    opacity: 1.0;
+}
+.name{ 
+	padding: 10px;
+	background-color: yellow;
+	opacity: 0.5;
+	position: fixed;
+	left: 0px;
+	bottom: 220px;
+	border-radius: 0px 30px 30px 0px;
+}
+.adjust{
+    background-color:lightblue;
+    opacity: 0.7;
+    padding:10px;
+    position: fixed;
+    bottom: 10px;
+    left:0px;
+    border-radius: 20px 0px 20px 0px;
+    color:black;
+}
+.logopng{
+    position: fixed;
+    bottom: 440px;
+    right:60px;
+}
+a {
+    text-decoration: none;
+}
+.notice{
+    display: flex;
+}
+.notice div{
+    background-color:white;
+    width:auto;
+    padding: 0px 35px;
+    margin: 15px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    color: black;
+    position: relative;
+    left: 350px;
+}
+#circular{
+    background-color: red;
+    font-size: 20px;
+}
+#event{
+background-color: blue;
+font-size: 20px;
+}
+#phd{
+background-color: rgb(72, 72, 126);
+font-size: 20px;
+}
+.acadcalen{
+    background-color: blue;
+    position: absolute;
+    bottom: 0px;
+    left: auto;
+    padding: 15px;
+}
+#mySidenav a{
+  position: absolute;
+  left: -60px;
+  transition: 0.4s;
+  width: 120px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+}
+
+#mySidenav a:hover {
+  left: 0;
+}
+
+#home {
+  top: 20px;
+  background-color: #04AA6D;
+}
+
+#twitter {
+  top: 80px;
+  background-color: #2196F3;
+}
+
+#youtube {
+  top: 140px;
+  background-color: #f44336;
+}
+#whatsapp {
+    top: 200px;
+    background-color:rgb(78, 241, 78);
+  }
+
+#facebook{
+  top: 260px;
+  background-color: rgb(76, 48, 231)
+}
